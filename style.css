@@ -4,10 +4,7 @@ html, body {
   overflow: hidden;
 }
 
-@font-face {
-  font-family: vollkorn;
-  src: url(./assets/Vollkorn-Bold.ttf);
-}
+
 
 canvas {
   display: block;
@@ -40,7 +37,7 @@ canvas {
   font-size: 20px;
   outline:none;
   color:white;
-  font-family: vollkorn;
+  font-family: Arial;
   text-align: center;
 }
 
@@ -62,7 +59,7 @@ canvas {
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  font-family: vollkorn;
+  font-family: Arial;
   margin: 4px 2px;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -83,20 +80,11 @@ canvas {
   outline: none;
 }
 
-.resetText{
-  font-size: 25px;
-  color: white;
-  font-family: vollkorn;
-  text-align: center;
-  text-shadow: -1px 1px 0 #ff1744,
-                1px 1px 0 #ff1744,
-                1px -1px 0 #ff1744,
-                -1px -1px 0 #ff1744;
-}
+
 
 .leadersText{
   font-size: 20px;
   color: white;
-  font-family: vollkorn;
+  font-family: Arial;
   text-align: center;
 }
